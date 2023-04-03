@@ -13,8 +13,8 @@ const Auth = () => {
         </div>
       </div>
 
-      <LogIn/>
-      {/* <SignUp/> */}
+      {/* <LogIn/> */}
+      <SignUp/>
     </div>
   );
 };
@@ -78,7 +78,7 @@ function SignUp() {
             type="text"
             className="infoInput"
             name="username"
-            placeholder="Usernames"
+            placeholder="Username"
           />
         </div>
 
